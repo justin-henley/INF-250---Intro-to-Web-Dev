@@ -1,0 +1,73 @@
+/* On this page, share your favorite hobby. Include two images and use a
+background color. Configure the text, color, and a two-column layout with CSS.
+Create a print.css file that removes the images and changes the background color
+to an off white (you may also need to change text color). Link your print.css
+file to your hobby.html file.
+
+Upload your files (hobby.html, hobby.css, print.css, and supporting images) to
+your existing exercises folder on the infprojects server and submit the working
+URL in the space below. */
+* { box-sizing: border-box; }
+h1 {
+  text-align: center;
+}
+p {
+  padding: 1em;
+}
+section {
+  float: left; width: 50%;
+
+  background-color: #F0F0F0;
+  border: 0.5em solid white;
+}
+section h3 {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  margin: 0;
+}
+section p {
+  text-indent: 1em;
+  padding: 0 1em 0 1em;
+}
+body {
+  background-color: gray;
+  color: #111;
+
+}
+#wrapper {
+  width: 90%;
+  margin-left: auto; margin-right: auto;
+  min-width: 240px; max-width: 2048px;
+  box-shadow: 3px 3px #333333;
+  overflow: auto;
+  background-color: white;
+}
+#headerPic {
+  height: 300px; width: auto;
+
+  background-image: url(dryJP.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#japanPic {
+  height: 400px;
+  background-image: url(rampJP.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  margin: auto;
+  border: 2px solid black;
+}
+
+#spainPic {
+  height: 400px;
+  background-image: url(trainES.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+  border: 2px solid black;
+}
